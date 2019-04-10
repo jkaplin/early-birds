@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+/* Module Dependencies */
+var app = require('../app');
+var http = require('http');
+
+/* Set Port */
+var PORT = 8030;
+app.set('port', '8030');
+
+/* Create & Start the Server */
+http.createServer(app).listen(PORT, () => {
+	console.log("Server Status: [LIVE]");
+	console.log(`Server running at 'http://localhost:${PORT}/'`);
+});

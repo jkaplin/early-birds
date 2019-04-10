@@ -1,0 +1,95 @@
+2019-04-09T17:04:28.764-0700 I CONTROL  [initandlisten] MongoDB starting : pid=3843 port=27017 dbpath=data/ 64-bit host=jkaplin-Aspire-E5-576G
+2019-04-09T17:04:28.764-0700 I CONTROL  [initandlisten] db version v3.2.22
+2019-04-09T17:04:28.764-0700 I CONTROL  [initandlisten] git version: 105acca0d443f9a47c1a5bd608fd7133840a58dd
+2019-04-09T17:04:28.764-0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2n  7 Dec 2017
+2019-04-09T17:04:28.764-0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-04-09T17:04:28.764-0700 I CONTROL  [initandlisten] modules: none
+2019-04-09T17:04:28.764-0700 I CONTROL  [initandlisten] build environment:
+2019-04-09T17:04:28.764-0700 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2019-04-09T17:04:28.764-0700 I CONTROL  [initandlisten]     distarch: x86_64
+2019-04-09T17:04:28.764-0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-04-09T17:04:28.764-0700 I CONTROL  [initandlisten] options: { net: { http: { RESTInterfaceEnabled: true, enabled: true } }, storage: { dbPath: "data/", directoryPerDB: true }, systemLog: { destination: "file", logAppend: true, path: "log/mongo.log" } }
+2019-04-09T17:04:28.799-0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-04-09T17:04:28.937-0700 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2019-04-09T17:04:28.980-0700 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2019-04-09T17:04:28.981-0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'data/diagnostic.data'
+2019-04-09T17:04:28.981-0700 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-04-09T17:04:37.753-0700 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+2019-04-09T17:04:37.753-0700 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2019-04-09T17:04:37.756-0700 I CONTROL  [signalProcessingThread] now exiting
+2019-04-09T17:04:37.756-0700 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2019-04-09T17:04:37.756-0700 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2019-04-09T17:04:37.756-0700 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2019-04-09T17:04:37.756-0700 I NETWORK  [signalProcessingThread] closing listening socket: 8
+2019-04-09T17:04:37.756-0700 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2019-04-09T17:04:37.757-0700 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2019-04-09T17:04:37.757-0700 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2019-04-09T17:04:37.757-0700 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2019-04-09T17:04:37.914-0700 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2019-04-09T17:04:37.914-0700 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2019-04-09T17:04:52.319-0700 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-04-09T17:04:52.324-0700 I CONTROL  [initandlisten] MongoDB starting : pid=3868 port=27017 dbpath=data/ 64-bit host=jkaplin-Aspire-E5-576G
+2019-04-09T17:04:52.324-0700 I CONTROL  [initandlisten] db version v3.2.22
+2019-04-09T17:04:52.324-0700 I CONTROL  [initandlisten] git version: 105acca0d443f9a47c1a5bd608fd7133840a58dd
+2019-04-09T17:04:52.324-0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2n  7 Dec 2017
+2019-04-09T17:04:52.324-0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-04-09T17:04:52.324-0700 I CONTROL  [initandlisten] modules: none
+2019-04-09T17:04:52.324-0700 I CONTROL  [initandlisten] build environment:
+2019-04-09T17:04:52.324-0700 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2019-04-09T17:04:52.324-0700 I CONTROL  [initandlisten]     distarch: x86_64
+2019-04-09T17:04:52.324-0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-04-09T17:04:52.324-0700 I CONTROL  [initandlisten] options: { net: { http: { RESTInterfaceEnabled: true, enabled: true } }, storage: { dbPath: "data/", directoryPerDB: true }, systemLog: { destination: "file", logAppend: true, path: "log/mongo.log" } }
+2019-04-09T17:04:52.352-0700 I -        [initandlisten] Detected data files in data/ created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-04-09T17:04:52.352-0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-04-09T17:04:52.481-0700 I STORAGE  [initandlisten] WiredTiger [1554854692:481426][3868:0x7f4704937100], txn-recover: Main recovery loop: starting at 1/9344
+2019-04-09T17:04:52.562-0700 I STORAGE  [initandlisten] WiredTiger [1554854692:562962][3868:0x7f4704937100], txn-recover: Recovering log 1 through 2
+2019-04-09T17:04:52.614-0700 I STORAGE  [initandlisten] WiredTiger [1554854692:614072][3868:0x7f4704937100], txn-recover: Recovering log 2 through 2
+2019-04-09T17:04:52.732-0700 I NETWORK  [websvr] admin web console waiting for connections on port 28017
+2019-04-09T17:04:52.733-0700 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2019-04-09T17:04:52.733-0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'data/diagnostic.data'
+2019-04-09T17:04:52.733-0700 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-04-09T17:04:53.696-0700 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+2019-04-09T17:04:53.696-0700 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2019-04-09T17:04:53.699-0700 I CONTROL  [signalProcessingThread] now exiting
+2019-04-09T17:04:53.699-0700 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2019-04-09T17:04:53.699-0700 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2019-04-09T17:04:53.699-0700 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2019-04-09T17:04:53.699-0700 I NETWORK  [signalProcessingThread] closing listening socket: 8
+2019-04-09T17:04:53.699-0700 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2019-04-09T17:04:53.699-0700 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2019-04-09T17:04:53.699-0700 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2019-04-09T17:04:53.699-0700 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2019-04-09T17:04:53.805-0700 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2019-04-09T17:04:53.805-0700 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2019-04-09T17:04:56.821-0700 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-04-09T17:04:56.830-0700 I CONTROL  [initandlisten] MongoDB starting : pid=3895 port=27017 dbpath=data/ 64-bit host=jkaplin-Aspire-E5-576G
+2019-04-09T17:04:56.830-0700 I CONTROL  [initandlisten] db version v3.2.22
+2019-04-09T17:04:56.830-0700 I CONTROL  [initandlisten] git version: 105acca0d443f9a47c1a5bd608fd7133840a58dd
+2019-04-09T17:04:56.830-0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2n  7 Dec 2017
+2019-04-09T17:04:56.830-0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-04-09T17:04:56.830-0700 I CONTROL  [initandlisten] modules: none
+2019-04-09T17:04:56.831-0700 I CONTROL  [initandlisten] build environment:
+2019-04-09T17:04:56.831-0700 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2019-04-09T17:04:56.831-0700 I CONTROL  [initandlisten]     distarch: x86_64
+2019-04-09T17:04:56.831-0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-04-09T17:04:56.831-0700 I CONTROL  [initandlisten] options: { storage: { dbPath: "data/", directoryPerDB: true }, systemLog: { destination: "file", logAppend: true, path: "log/mongo.log" } }
+2019-04-09T17:04:56.868-0700 I -        [initandlisten] Detected data files in data/ created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-04-09T17:04:56.868-0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-04-09T17:04:56.937-0700 I STORAGE  [initandlisten] WiredTiger [1554854696:937672][3895:0x7f8650315100], txn-recover: Main recovery loop: starting at 2/4224
+2019-04-09T17:04:56.978-0700 I STORAGE  [initandlisten] WiredTiger [1554854696:978604][3895:0x7f8650315100], txn-recover: Recovering log 2 through 3
+2019-04-09T17:04:56.979-0700 I STORAGE  [initandlisten] WiredTiger [1554854696:979705][3895:0x7f8650315100], txn-recover: Recovering log 3 through 3
+2019-04-09T17:04:57.106-0700 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2019-04-09T17:04:57.107-0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'data/diagnostic.data'
+2019-04-09T17:04:57.107-0700 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-04-09T17:05:01.688-0700 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+2019-04-09T17:05:01.688-0700 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2019-04-09T17:05:01.691-0700 I CONTROL  [signalProcessingThread] now exiting
+2019-04-09T17:05:01.691-0700 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2019-04-09T17:05:01.691-0700 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2019-04-09T17:05:01.691-0700 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2019-04-09T17:05:01.691-0700 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2019-04-09T17:05:01.691-0700 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2019-04-09T17:05:01.691-0700 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2019-04-09T17:05:01.691-0700 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2019-04-09T17:05:01.786-0700 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2019-04-09T17:05:01.787-0700 I CONTROL  [signalProcessingThread] dbexit:  rc: 0

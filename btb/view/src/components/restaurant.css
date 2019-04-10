@@ -1,0 +1,95 @@
+.restaurant {
+	margin-top: 15px;
+	margin: 2% auto;
+	height: 150px;
+	width: 70%;
+	width: 60vmax;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	color: rgb(3, 31, 56);
+	background: #fcf9fc;
+}
+
+.restaurant_photo {
+	width: 115px;
+	height: 115px;
+
+	margin: 15px 15px 15px;
+
+	position: relative;
+
+	border-style: solid;
+	border-color: rgb(211, 186, 47);
+}
+
+.restaurantHeader {
+	position: relative;
+	left: 150px;
+	top: -130px;
+
+	width: 70%;
+
+
+	border-style: solid;
+	border-color: rgb(4, 0, 255);
+}
+
+.restaurantInfo {
+	position: relative;
+	left: 150px;
+	top: -140px;
+
+	width: 70%;
+
+
+	border-style: solid;
+	border-color: rgb(0, 255, 179);
+}
+
+.restaurantIcons {
+	position: relative;
+	left: 75%;
+	top: -145px;
+
+	width: 20%;
+	height: 25px;
+
+
+	border-style: solid;
+	border-color: rgb(140, 0, 255);
+}
+
+.container-restaurants {
+	display: block;
+}
+
+.text {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: rgb(0, 255, 179);
+}
+
+.restaurantPopup {
+	outline: none;
+	position: fixed;
+	margin: 3% auto;
+
+	color: #1d2c3f;
+
+	top: 100px;
+	left: 8%;
+
+	background: #fafafa;
+
+	height: 70%;
+	width: 80%;
+
+	padding: 10px;
+
+	border-radius: 18px;
+	border-style: solid;
+	border-color: #ebebeb;
+}
+
+.PopupHeading {
+	font-size: 30px;
+}
